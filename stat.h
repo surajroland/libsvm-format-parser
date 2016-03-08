@@ -19,10 +19,10 @@ typedef struct sample{
 
 class statistics{
 private:
-	  int numSamples;
+    int numSamples;
     int dimFeatures;
- 	  std::vector<sample> sparseDataset;
- 	  double* denseDataset;
+    std::vector<sample> sparseDataset;
+    double* denseDataset;
     std::vector<double> mu[2];
     std::vector<double> sigma[2];
     std::vector<unsigned int>nonZeroEntropyKeys[2];
