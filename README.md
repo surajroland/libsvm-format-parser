@@ -74,10 +74,8 @@ for label -1: expectation and variance for key 1 and 3
 for label 1: expectation and variance for key 3
 ```
 
-**Important: Don´t mix the values between labels**
-
 Notes:
- * even if key1 only appears once in all samples of a specific label, the expectation of key1 wont be value1 since the expectation will have to be computed from all appearing samples. For all samples where key1 does not appear, the value of 0.0 has to be used as input value. Same for the calculation of the variance. **If this is not clear, have a look at the corresponding output in the section below**
+ * even if key1 only appears once in all samples of a specific label, the expectation of key1 wont be value1 since the expectation will have to be computed from all appearing samples. For all samples where key1 does not appear, the value of 0.0 has to be used as input value. Same for the calculation of the variance. If this is not clear, have a look at the corresponding output in the section below -
 
 ### Print the result
 
