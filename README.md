@@ -79,7 +79,7 @@ for label 1: expectation and variance for key 3
 Notes:
  * even if key1 only appears once in all samples of a specific label, the expectation of key1 wont be value1 since the expectation will have to be computed from all appearing samples. For all samples where key1 does not appear, the value of 0.0 has to be used as input value. Same for the calculation of the variance. **If this is not clear, have a look at the corresponding output in the section below**
 
-### Print the result (stdout)
+### Print the result
 
 The result shall be printed as libsvm data in the same format as above.
 The result shall only consist of the following four lines:
@@ -92,7 +92,7 @@ The result shall only consist of the following four lines:
 ```
 
 Notes:
- * The expectation and variance values shall be printed as .18f
+ * The expectation and variance values shall be printed, for example, as .18f
  * Only the dimensions that were set in the input shall appear in the output!
 
 Example input data:
