@@ -1,8 +1,6 @@
 Libsvm format parser
 ============
 
-## Task
-
 The source code does the following:
  * Read the sparse libsvm file *example_file*
  * Calculate the expectation and variance of every dimension that appears at least once separately for each label
