@@ -3,14 +3,7 @@ Libsvm format parser
 
 ## Task
 
-Estimated time to complete the task 45-60 minutes. An implementation in C/C++ is preferred over any other programming language. 
-You will get an additional 60 minutes of time if you choose to solve this task in C/C++.
-
-As we want to test your algorithmic skills, we would prefer a code with minimal use of libraries.
-
-** In your own interest read and understand this whole file before you start to think about a solution! **
-
-The task consists of three steps:
+The source code does the following:
  * Read the sparse libsvm file *example_file*
  * Calculate the expectation and variance of every dimension that appears at least once separately for each label
  * Output the result as a libsvm file.
